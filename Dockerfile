@@ -1,4 +1,5 @@
 
+# 2. Fix Docker
 
 # Hotfix 2
 
@@ -18,4 +19,4 @@ RUN python3 -m pip install --upgrade pip setuptools psutil
 
 COPY . /gfootball
 RUN cd /gfootball && python3 -m pip install .
-WORKDIR '/gfootball'
+WORKDIR '/gfootball':
